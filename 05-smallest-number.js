@@ -3,14 +3,27 @@
 
 const numbers = [51, 18, 13, 24, 7, 85, 19];
 
-let smallesNumber = numbers[0];
+// let smallesNumber = numbers[0];
+
+// for (const number of numbers) {
+
+//     if (number < smallesNumber) {
+//         smallesNumber = number
+//     }
+
+// }
+
+// console.log(smallesNumber);
+
+// найбільше число
+let biggestNumber = numbers[0];
 
 for (const number of numbers) {
 
-    if (number < smallesNumber) {
-        smallesNumber = number
+    if (number > biggestNumber) {
+        biggestNumber = number
     }
 
 }
 
-console.log(smallesNumber);
+console.log(biggestNumber);
